@@ -901,7 +901,7 @@ a {
       -webkit-justify-content:center;
           -ms-flex-pack:center;
               justify-content:center;
-      background:#ddd url('/img/close-icon.svg') no-repeat;
+      background:#ddd url('./../img/close-icon.svg') no-repeat;
       width:35px;
       height:35px;
       z-index: 100000;
@@ -909,7 +909,7 @@ a {
 
     body.js-show-right-sidebar .site__right-sidebar-toggle {
       /* styles for when the sidebar is shown */
-      background:#ddd url('/img/arrow-icon.svg') no-repeat;
+      background:#ddd url('./../img/arrow-icon.svg') no-repeat;
       width:35px;
       height:35px;
     }
