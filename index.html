@@ -26,11 +26,15 @@
 <body>
 
 <div class="site">
+  <a class="site__right-sidebar-toggle">
+   
+  </a>  
       <!-- 70% main area -->
       <div class="site__main">
           <div class="site__left-sidebar">
               <h2>
                   Buy Me Shoes
+
               </h2>
           </div>
           <div class="site__content">
@@ -146,10 +150,12 @@
       <!-- 30% sidebar -->
       <div class="site__right-sidebar">
             <div class="cart">
-              <h3 class="cart__title">Shopping Cart</h3>
+              <h3 class="cart__title">Shopping Cart (2)</h3>
+
               <div class="cart__content">
                 
                 <div class="cart-item">
+
                   <div class="cart-item__top-part">
                     <div class="cart-item__image">
                       <img  src="img/shoe1.jpg"/>
@@ -158,6 +164,7 @@
                     <div class="cart-item__top-part__middle">
                       <div class="cart-item__title">
                         Marana E-Lite
+
                       </div>
 
                       <div class="cart-item__price">
@@ -176,21 +183,100 @@
                       <a class="adjust-qty__button">+</a>
                     </div>
                   </div>
-
                 </div> <!-- cart-item -->
+                <div class="cart-item">
+
+                  <div class="cart-item__top-part">
+                    <div class="cart-item__image">
+                      <img  src="img/shoe1.jpg"/>
+                    </div>
+
+                    <div class="cart-item__top-part__middle">
+                      <div class="cart-item__title">
+                        Marana E-Lite
+
+                      </div>
+
+                      <div class="cart-item__price">
+                        $299
+                      </div>
+                    </div>
+
+                    <img class="cart-item__trash" src="img/trash-icon.svg"/>
+                  </div> <!-- cart-item__top-part -->
 
 
-                <div class="cart-item">cart item</div>
-                <div class="cart-item">cart item</div>
-                <div class="cart-item">cart item</div>
-                <div class="cart-item">cart item</div>
-                <div class="cart-item">cart item</div>
-                <div class="cart-item">cart item</div>
+                  <div class="cart-item__qty">
+                    <div class="adjust-qty">
+                      <a class="adjust-qty__button">-</a>
+                      <div class="adjust-qty__number">2</div>
+                      <a class="adjust-qty__button">+</a>
+                    </div>
+                  </div>
+                </div> <!-- cart-item -->
+                <div class="cart-item">
+
+                  <div class="cart-item__top-part">
+                    <div class="cart-item__image">
+                      <img  src="img/shoe1.jpg"/>
+                    </div>
+
+                    <div class="cart-item__top-part__middle">
+                      <div class="cart-item__title">
+                        Marana E-Lite
+
+                      </div>
+
+                      <div class="cart-item__price">
+                        $299
+                      </div>
+                    </div>
+
+                    <img class="cart-item__trash" src="img/trash-icon.svg"/>
+                  </div> <!-- cart-item__top-part -->
+
+
+                  <div class="cart-item__qty">
+                    <div class="adjust-qty">
+                      <a class="adjust-qty__button">-</a>
+                      <div class="adjust-qty__number">2</div>
+                      <a class="adjust-qty__button">+</a>
+                    </div>
+                  </div>
+                </div> <!-- cart-item -->
+                
               </div>
             </div>
-            <div class="checkout">Checkout</div>
+            <div class="checkout">
+              <hr class="checkout__divider"/>
+              <input type="text" class="checkout__coupon-input" placeholder="coupon code"></input>
+              
+              <div class="checkout__line">
+                Discount:
+                <div class="checkout__amount">
+                -$90
+                </div> 
+              </div>
+
+              <div class="checkout__line">
+                <b>Subtotal:</b>
+                <div class="checkout__amount checkout__price--strikeout">
+                -$450.12
+                </div> 
+              </div>
+
+              <div class="checkout__line">
+                
+                <div class="checkout__amount checkout__price--saving">
+                $360.09
+                </div> 
+              </div>
+
+              <button type="submit" class="checkout__button"><img class="checkout__icon" src="img/cart-icon.svg"/>Checkout</button>
+              
+            </div>
       </div> <!-- site__right-sidebar -->
     </div> <!-- site -->
-
+    
 </body>
 </html>
